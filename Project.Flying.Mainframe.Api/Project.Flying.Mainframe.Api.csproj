@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Project.Flying.Mainframe.Domain\Project.Flying.Mainframe.Domain.csproj" />
+    <ProjectReference Include="..\Project.Flying.Mainframe.Data\Project.Flying.Mainframe.Data.csproj" />
   </ItemGroup>
 
 </Project>
