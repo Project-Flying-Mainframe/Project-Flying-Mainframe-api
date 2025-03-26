@@ -41,7 +41,9 @@ namespace Project.Flying.Mainframe.Domain.Catalog
         this.Name = name;
         this.Description = description;
         this.Brand = brand;
-        this.Price = price;
+        this.Price = price; 
+        this.Ratings = new List<Rating>(); 
+
     }
     }
 } 
