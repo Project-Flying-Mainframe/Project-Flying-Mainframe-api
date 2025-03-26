@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Flying.Mainframe.Api", "Project.Flying.Mainframe.Api\Project.Flying.Mainframe.Api.csproj", "{B4E04FE1-30F5-436D-8373-313DAF79BCFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Flying.Mainframe.Domain", "Project.Flying.Mainframe.Domain\Project.Flying.Mainframe.Domain.csproj", "{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E04FE1-30F5-436D-8373-313DAF79BCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E04FE1-30F5-436D-8373-313DAF79BCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E04FE1-30F5-436D-8373-313DAF79BCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E04FE1-30F5-436D-8373-313DAF79BCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

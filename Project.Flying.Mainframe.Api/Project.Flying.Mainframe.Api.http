@@ -1,0 +1,6 @@
+@Project.Flying.Mainframe.Api_HostAddress = http://localhost:5292
+
+GET {{Project.Flying.Mainframe.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
