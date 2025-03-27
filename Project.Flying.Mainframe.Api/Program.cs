@@ -1,9 +1,20 @@
+using Project.Flying.Mainframe.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi 
 builder.Services.AddControllers();
-builder.Services.AddOpenApi();
+builder.Services.AddDbContext<StoreContext>(options => options.UseSqlite("Data Source=.../Registrar.sqlite", 
+    b => b.MigrationsAssembly("Project.Flying.Mainframe.Api"))
+    );
+
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi 
+ 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
