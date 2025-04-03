@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Flying.Mainframe.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Flying.Mainframe.Domain", "Project.Flying.Mainframe.Domain\Project.Flying.Mainframe.Domain.csproj", "{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C60779DC-9EF3-4553-9499-11008E54B4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Flying.Mainframe.Domain.Tests", "tests\Project.Flying.Mainframe.Domain.Tests\Project.Flying.Mainframe.Domain.Tests.csproj", "{EB6C1EFC-009E-4018-9846-40A8AD3715B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1ED79E-AB72-45EE-9BF8-E5E0E72974C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6C1EFC-009E-4018-9846-40A8AD3715B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6C1EFC-009E-4018-9846-40A8AD3715B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6C1EFC-009E-4018-9846-40A8AD3715B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6C1EFC-009E-4018-9846-40A8AD3715B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB6C1EFC-009E-4018-9846-40A8AD3715B7} = {C60779DC-9EF3-4553-9499-11008E54B4E5}
 	EndGlobalSection
 EndGlobal
