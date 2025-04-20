@@ -3,6 +3,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi 
 builder.Services.AddControllers();
+builder.Services.AddCors(options => {
+options.AddDefaultPolicy(builder =>{
+builder.WithOrigins("http://localhost:3000")
+.AllowAnyHeader()
+.AllowAnyMethod();
+});
+});
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -14,8 +21,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection(); 
-app.MapControllers(); 
 
+app.UseCors();
+
+app.MapControllers(); 
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
